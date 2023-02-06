@@ -1,5 +1,6 @@
 {
-  "name": "webdriverion-assertion-demo",
+  "name": "webdriverio-assertion-demo",
+  "description": "WebdriverIO assertion examples demo",
   "type": "module",
   "devDependencies": {
     "@wdio/cli": "^8.3.3",
@@ -8,10 +9,18 @@
     "@wdio/spec-reporter": "^8.3.0",
     "chromedriver": "^109.0.0",
     "wdio-chromedriver-service": "^8.0.1",
-    "wdio-vscode-service": "^5.0.0",
+    "wdio-lambdatest-service": "^1.0.15",
     "wdio-wait-for": "^3.0.2"
   },
   "scripts": {
-    "wdio": "wdio run ./wdio.conf.js"
-  }
+    "wdio": "wdio run ./wdio.conf.js",
+    "wdio-lt-single": "wdio run ./wdio.lt.single.conf.js",
+    "wdio-lt-parallel": "wdio run ./wdio.lt.parallel.conf.js"
+  },
+  "keywords": [
+    "webdriverio",
+    "Lambdatest",
+    "selenium",
+    "tests"
+  ]
 }
