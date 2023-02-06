@@ -34,7 +34,6 @@ export const config = {
         // './test/specs/to-be-displayedInViewport.e2e.js',
         // './test/specs/to-have-children.e2e.js',
         // './test/specs/to-be-elements-array-of-size.e2e.js',
-        // './test/specs/to-be-requested.e2e.js',
         // './test/specs/regular-expression.e2e.js',
     ],
     maxInstances: 10,

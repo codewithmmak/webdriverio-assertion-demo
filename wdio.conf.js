@@ -23,7 +23,7 @@ export const config = {
     // will be called from there.
     //
     specs: [
-        // './test/specs/**/*.js',
+        './test/specs/**/*.js',
         // './test/specs/to-have-url.e2e.js',
         // './test/specs/to-have-url-containing.e2e.js',
         // './test/specs/to-have-title.e2e.js',
@@ -57,8 +57,7 @@ export const config = {
         // './test/specs/to-be-displayedInViewport.e2e.js',
         // './test/specs/to-have-children.e2e.js',
         // './test/specs/to-be-elements-array-of-size.e2e.js',
-        // './test/specs/to-be-requested.e2e.js',
-        './test/specs/regular-expression.e2e.js',
+        // './test/specs/regular-expression.e2e.js',
     ],
     // Patterns to exclude.
     exclude: [
