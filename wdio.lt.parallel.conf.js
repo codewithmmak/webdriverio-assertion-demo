@@ -1,7 +1,7 @@
 export const config = {
     specs: [
-        // './test/specs/**/*.js',
-        './test/specs/to-have-url.e2e.js',
+        './test/specs/**/*.js',
+        // './test/specs/to-have-url.e2e.js',
         // './test/specs/to-have-url-containing.e2e.js',
         // './test/specs/to-have-title.e2e.js',
         // './test/specs/to-have-title-containing.e2e.js',
@@ -38,30 +38,27 @@ export const config = {
         // './test/specs/regular-expression.e2e.js',
     ],
     maxInstances: 10,
-    commonCapabilities: {
-        name: 'WebdriverIO Parallel Test Execution',
-        build: `WebdriverIO Build - ${new Date().toJSON()}`,
-        project: "WebdriverIO Tests",
-        "LT:Options": {
-            "w3c": true,
-            "plugin": "node_js-webdriverio"
-        }
-    },
     capabilities: [
         {
             platfrom: "Windows 10",
             browserName: "Chrome",
-            version: "latest"
+            version: "latest",
+            project: "WebdriverIO Tests",
+            build: `WebdriverIO Build - ${new Date().toJSON()}`
         },
         {
             platform: "Windows 10",
             browserName: "Firefox",
-            version: "latest"
+            version: "latest",
+            project: "WebdriverIO Tests",
+            build: `WebdriverIO Build - ${new Date().toJSON()}`
         },
         {
             platform: "MacOS Ventura",
             browserName: "Safari",
-            version: "latest"
+            version: "latest",
+            project: "WebdriverIO Tests",
+            build: `WebdriverIO Build - ${new Date().toJSON()}`
         }
     ],
     user: process.env.LT_USERNAME,
