@@ -28,12 +28,6 @@
 ## How to Run Single Spec Locally
 * Go to the Project root directory and run command: `npm run wdio wdio.conf.js --spec ./test/specs/to-have-url.e2e.js`
 
-## How to view default Playwright HTML report
-* Go to the Project root directory: `./playwright-report/index.html`
-
-### Playwright Default HTML Test Report
-![Playwright Default HTML Test Report](./assets/html-test-report.PNG?raw=true "Playwright Default HTML Test Report")
-
 ## How to Run Test on LambdaTest Cloud
 * Go to Project root directory and run command: `npm run lambdatest`
 
